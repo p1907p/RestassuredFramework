@@ -15,7 +15,7 @@ public class CreatecustomerAPI extends BaseTest{
 	/*
 	 * we will create valid service key we will create invalid service key
 	 */
-
+//this is second sample comment
 	public static Response sendPostReqToCreateCustWithValidKey(Hashtable<String, String>adata) 
 	{
 
