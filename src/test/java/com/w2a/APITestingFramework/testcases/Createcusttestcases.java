@@ -23,7 +23,7 @@ public class Createcusttestcases extends BaseTest {
 	@Test(dataProviderClass = Datautils.class,dataProvider = "data")
 	public void validCreatcustomer(Hashtable<String,String>adata) {
 
-		
+		//sample comment
 		System.out.println("first test method!!");
 		
 		Response response = CreatecustomerAPI.sendPostReqToCreateCustWithValidKey(adata);
